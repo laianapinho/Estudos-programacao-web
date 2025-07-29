@@ -1,0 +1,28 @@
+h1{
+    color: blue;
+    font-style: italic;
+}
+
+h3{
+    color: palevioletred;
+    font-style: italic;
+}
+
+button {
+    background-color: red;
+}
+
+button[disabled] {
+    background-color: lightgreen;
+}
+
+.texto {
+    color: blueviolet;
+}
+
+button:hover{
+    background-color: #888;
+}
+button[disabled]:hover{
+    background-color: #888;
+}
