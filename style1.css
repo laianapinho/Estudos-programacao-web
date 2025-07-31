@@ -1,0 +1,30 @@
+.texto {
+    color: #F00;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+div p.descricao {
+    color: #F00;
+}
+
+#sidebar p {
+    color: #F90;
+}
+
+body {
+    font-size: 10px;
+}
+#conteudo p.primeiro {
+    color: green; 
+}
+#conteudo p {
+    color: blue;
+    font-size: 18px; 
+}
+p {
+    color: red;
+    font-size: 26px; 
+}
