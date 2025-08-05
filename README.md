@@ -12,7 +12,7 @@ Neste repositório, você encontrará uma **replicação dos exemplos demonstrad
 
 - ✅ **HTML**: estruturação de páginas com elementos semânticos, listas, tabelas, formulários e links.
 - ✅ **CSS**: estilização com seletores, cores, tamanhos, bordas, alinhamentos e uso de classes.
-- ✅ **JavaScript**: scripts básicos para interatividade como exibição de alertas, manipulação do DOM e respostas a eventos.
+- ✅ **JavaScript**: scripts básicos para interatividade como exibição de alertas e respostas a eventos.
 
 ## Como visualizar
 
