@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const numeros = [1,2,3];
+        for (let i = 0; i < 3; i++){
+            console.log("O item " + i + " do array é ” + numeros[i]");
+        }
+
+        //o laco for ... in
+        const pessoa = { nome: 'Laiana', idade: '23'};
+        for(let key in pessoa){
+            console.log(`${key} é ${pessoa[key]}`)
+        }
+
+        //o laço for ...of
+        const num = [1,2,3];
+        for (let numero of num){
+            console.log(numero);
+        }
+    </script>
+</body>
+</html>
