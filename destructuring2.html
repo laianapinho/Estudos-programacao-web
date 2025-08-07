@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let usuario = "Maria Clara";
+        let canal = "TikTok";
+        let felicidade = 65.56;
+        
+        const resposta = {
+            usuario: 'Laiana Pinho',
+            canal: 'Instagram',
+            felicidade: 70.30,
+            tristeza: 8.50,
+            euforia: 67.40,
+            ansiedade: 6.45,
+        };
+
+        ({ usuario, felicidade, tristeza, euforia, ansiedade } = resposta);
+
+        console.log('Olá, meu nome é: ' + usuario);
+        console.log('A probabilidade de felicidade no texto é de:'+ felicidade + "%");
+        console.log('A probabilidade de tristeza no texto é de:'+ tristeza + "%");
+        console.log('A probabilidade de euforia no texto é de:'+ euforia + "%");
+        console.log('A probabilidade de ansiedade no texto é de:'+ ansiedade + "%");
+    </script>
+</body>
+</html>

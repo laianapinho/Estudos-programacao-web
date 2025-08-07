@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log("slice");
+        var vetor12 = new Array(1, 2, 3, 4, 5);
+        var novoVetor = vetor12.slice(0, 2);
+        console.log(vetor12);
+        console.log(novoVetor);
+
+        console.log("splice: adicionando");
+        var cores = ['vermelho', 'laranja', 'amarelo', 'verde', 'azul'];
+        var novaCores = cores.splice(2, 0, 'roxo', 'rosa');
+        console.log(cores);
+
+        console.log("splice:deletando");
+        var cores = ['vermelho', 'laranja', 'amarelo', 'verde', 'azul'];
+        const coresRemovidas = cores.splice(1, 2);
+        console.log(cores);
+        console.log(coresRemovidas);
+        
+        console.log("splice:substituindo");
+        var cores = ['vermelho', 'laranja', 'amarelo', 'verde', 'azul'];
+        var coresSub = cores.splice(3, 1, 'marrom');
+        console.log(cores);
+        console.log(coresSub);
+    </script>
+</body>
+</html>
