@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Com erro de Referência
+        try {
+            var a = a + b;
+        } catch (error) {
+            console.log(error.name);
+            console.log(error.message);
+        } finally {
+            console.log("Bloco sempre Executado!");
+        }
+
+        //Bloco Sem erro
+        /*try {
+            var d;
+            var c = c + d;
+        } catch (error) {
+            console.log(error.name);
+            console.log(error.message);
+        } finally {
+            console.log("Bloco sempre Executado!");
+        }*/
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class Pessoa {
+            constructor(nome, idade, sexo, dataDeNascimento) {
+                this.nome = nome;
+                this.idade = idade;
+                this.sexo = sexo;
+                this.dataDeNascimento = dataDeNascimento;
+                }
+            apresentar() {
+                console.log(`Ola, meu nome é ${this.nome}, eu tenho ${this.idade} anos`);
+                    }
+            }
+
+        const pessoa1 = new Pessoa("João", 41, "Masculino", "24/02/1984");
+        const pessoa2 = new Pessoa("Laiana", 23, "Feminino", "22/12/2001");
+        
+        pessoa1.apresentar();
+        console.log(pessoa1.dataDeNascimento);
+        pessoa2.apresentar();
+        console.log(pessoa2.sexo)
+    </script>
+</body>
+</html>
